@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.btn {
+    padding: .5em 1em;
+    font-size: 1.2em;
+    letter-spacing: 1.2px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background: #e0e0e0;
+    box-shadow: inset 10px 10px 8px #cacaca,
+        inset -10px -10px 8px #f6f6f6;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+/* <-- Index page Style --> */
+
+.main-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    color: #1f1f1f;
+    align-content: center;
+    text-align: center;
+}
+
+.main-page h1 {
+    width: 80%;
+    font-size: 3.5em;
+    margin: 0 auto;
+}
+
+.main-page h1 .name {
+    font-size: 1.6em;
+    letter-spacing: 1.1px;
+}
+
+.main-page h1 .title {
+    display: block;
+    font-size: .2em;
+}
+
+.main-page .btn-container {
+    margin: 1.5em auto;
+    display: flex;
+    justify-content: center;
+    gap: .8em;
+}

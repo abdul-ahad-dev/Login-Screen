@@ -1,0 +1,47 @@
+/* <-- login page style --> */
+
+.login-page {
+    width: 100vw;
+    min-height: 100vh;
+    align-content: center;
+    /* background-color: #1f1f1f; */
+}
+
+.login-page .container {
+    width: 70%;
+    min-height: 70vh;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0px 0px 5px 0.01px;
+}
+
+.login-page .container .brand-image {
+    /* background-color: #1f1f1f; */
+    width: 50%;
+}
+
+.login-page .container .brand-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.login-page .container .login-form {
+    width: 50%;
+    padding: 1em .7em;
+}
+
+.login-form h1 {
+    font-size: 2em;
+    margin: .8em 0 .5em;
+    color: #032B43;
+    text-align: center;
+}
+
+.login-form .email-div, .password-div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
