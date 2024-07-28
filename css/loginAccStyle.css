@@ -4,12 +4,13 @@
     width: 100vw;
     min-height: 100vh;
     align-content: center;
-    /* background-color: #1f1f1f; */
+    /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+
 }
 
 .login-page .container {
     width: 70%;
-    min-height: 70vh;
+    min-height: 60vh;
     border-radius: 25px;
     margin: 0 auto;
     display: flex;
@@ -17,8 +18,11 @@
 }
 
 .login-page .container .brand-image {
-    /* background-color: #1f1f1f; */
     width: 50%;
+    border-radius: 25px 0 0 25px;
+    z-index: -4;
+    background-color: #1f1f1f3f;
+    /* border-right: 1px solid #1f1f1f2f; */
 }
 
 .login-page .container .brand-image img {
@@ -30,18 +34,69 @@
 
 .login-page .container .login-form {
     width: 50%;
+    background-color: #05445E;
+    color: #dadada;
+    border-radius: 0 25px 25px 0;
     padding: 1em .7em;
 }
 
 .login-form h1 {
     font-size: 2em;
-    margin: .8em 0 .5em;
-    color: #032B43;
+    margin: 1.2em 0 2em;
+    color: #dadada;
+    letter-spacing: 1.2px;
     text-align: center;
 }
 
 .login-form .email-div, .password-div {
+    margin: 1em 2em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 1.1em;
+    letter-spacing: 1.15px;
+    text-shadow: 2px 2px 15px #dadada;
+}
+
+
+.login-form input{
+    min-width: 15em;
+    padding: 0.8em 1em;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #1f1f1f7e;
+    box-shadow: inset 10px 10px 8px #cacaca,
+    inset -10px -10px 8px #f6f6f6;
+}
+
+.login-form #forget-password {
+    display: block;
+    color: #d66962;
+    letter-spacing: 1.2px;
+    text-align: end;
+    margin-right: 2em;
+}
+
+.login-form #forget-password:hover {
+    text-shadow: 1px 1px 1px #ff0011;
+}
+
+.login-form .btns {
+    margin: 1.7em auto 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form #login-btn {
+    padding: .6em 1.5em;
+    box-shadow: 0px 0px 0px;
+    background-color: #df6b29;
+}
+
+.login-form .create-acc-text {
+    margin: 1.5em 2em;
+}
+
+.login-form .create-acc-text a {
+    color: #FFD60A;
 }

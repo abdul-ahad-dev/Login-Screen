@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid black;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -31,7 +32,7 @@ body {
 
 .main-page {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     color: #1f1f1f;
     align-content: center;
@@ -41,7 +42,7 @@ body {
 .main-page h1 {
     width: 80%;
     font-size: 3.5em;
-    margin: 0 auto;
+    margin: 2em auto 0;
 }
 
 .main-page h1 .name {
@@ -52,6 +53,8 @@ body {
 .main-page h1 .title {
     display: block;
     font-size: .2em;
+    letter-spacing: 2px;
+    text-align: end;
 }
 
 .main-page .btn-container {
