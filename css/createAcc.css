@@ -1,6 +1,6 @@
 /* <-- login page style --> */
 
-.login-page {
+.create-acc {
     width: 100vw;
     min-height: 100vh;
     align-content: center;
@@ -8,7 +8,7 @@
 
 }
 
-.login-page .container {
+.create-acc .container {
     width: 70%;
     min-height: 60vh;
     border-radius: 25px;
@@ -17,21 +17,22 @@
     box-shadow: 0px 0px 5px 0.01px;
 }
 
-.login-page .container .brand-image {
+.create-acc .container .brand-image {
     width: 50%;
     border-radius: 25px 0 0 25px;
     z-index: -4;
     background-color: #cac8c9;
+    /* border-right: 1px solid #1f1f1f2f; */
 }
 
-.login-page .container .brand-image img {
+.create-acc .container .brand-image img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     object-position: center;
 }
 
-.login-page .container .login-form {
+.create-acc .container .create-acc-form {
     width: 50%;
     background-color: #05445E;
     color: #dadada;
@@ -39,15 +40,20 @@
     padding: 1em .7em;
 }
 
-.login-form h1 {
+.create-acc-form h1 {
     font-size: 2em;
-    margin: 1.2em 0 2em;
+    margin: .8em 0 1em;
     color: #dadada;
     letter-spacing: 1.2px;
     text-align: center;
 }
 
-.login-form .email-div, .password-div {
+.create-acc-form 
+.user-name-div, 
+.email-div,
+.phone-no-div,
+.pass-1-div,
+.pass-2-div {
     margin: 1em 2em;
     display: flex;
     justify-content: space-between;
@@ -58,7 +64,7 @@
 }
 
 
-.login-form input{
+.create-acc-form input{
     min-width: 15em;
     padding: 0.8em 1em;
     border-radius: 25px;
@@ -68,7 +74,7 @@
     inset -10px -10px 8px #f6f6f6;
 }
 
-.login-form #forget-password {
+.create-acc-form #forget-password {
     display: block;
     color: #d66962;
     letter-spacing: 1.2px;
@@ -76,26 +82,26 @@
     margin-right: 2em;
 }
 
-.login-form #forget-password:hover {
+.create-acc-form #forget-password:hover {
     text-shadow: 1px 1px 1px #ff0011;
 }
 
-.login-form .btns {
+.create-acc-form .btns {
     margin: 1.7em auto 1em;
     display: flex;
     justify-content: center;
 }
 
-.login-form #login-btn {
+.create-acc-form #login-btn {
     padding: .6em 1.5em;
     box-shadow: 0px 0px 0px;
     background-color: #df6b29;
 }
 
-.login-form .create-acc-text {
-    margin: 1.5em 2em;
+.create-acc-form .login-acc-text {
+    margin: 1em 2em 0;
 }
 
-.login-form .create-acc-text a {
+.create-acc-form .login-acc-text a {
     color: #FFD60A;
 }

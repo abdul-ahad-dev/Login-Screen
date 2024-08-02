@@ -25,7 +25,7 @@ body {
 }
 
 .btn:active {
-    transform: scale(1.1);
+    transform: scale(.95);
 }
 
 /* <-- Index page Style --> */
@@ -46,11 +46,16 @@ body {
 }
 
 .main-page h1 .name {
+    /* color: #05445E; */
+    background: linear-gradient(to top left, #05445E,#df6b29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 1.6em;
     letter-spacing: 1.1px;
 }
 
 .main-page h1 .title {
+    /* color: #df6b29; */
     display: block;
     font-size: .2em;
     letter-spacing: 2px;
